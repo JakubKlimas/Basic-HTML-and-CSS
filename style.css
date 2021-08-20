@@ -6,7 +6,9 @@ body{
 h1{
     color:black;
     padding: 15px;
-    display: inline-block
+    display: inline-block;
+    margin-bottom: 10px;
+    
 }
 h2{
     color:rgb(57, 120, 236);
@@ -16,8 +18,11 @@ h3{
     color:cornflowerblue;
     padding: 5px;
 }
-span{
-    padding: 15px;
+span{   
+    display: inline-block;
+    padding: 1px 60px;
+    text-decoration: none;
+    color: black;   
 }
 .address-icon {
     width: 16px;
@@ -27,22 +32,25 @@ span{
     margin-right: 15px;
     padding: 8px;
     vertical-align: middle;
-    ver
 }
 .circle{
     border-radius: 50%;
 }
+.container{
+    box-shadow: 0 0 20px grey;
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+}
 header,
 section{
     padding: 10px 60px 20px 60px;
-    background-color: white;
-    width: 960px;
-    margin: 0 auto;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 60px;
 }
 header ul{
     list-style: none;
@@ -55,9 +63,61 @@ header img{
     height: 200px;
     margin-right: auto;
     border: 10px solid rgb(144, 177, 240);
-    padding: 15px;
+    
 }
 div{
     margin: auto;
     padding: 60px;
 }
+
+.profile-picture{
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+}
+section img{
+    padding: 10px;
+    margin: auto;
+    vertical-align: middle;
+    
+}
+.hobbies{
+    display: flex;
+    list-style: none;
+    align-items:center;
+    justify-content: space-evenly;
+    
+}
+.CV-download{
+    border: 2px solid cornflowerblue;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 45%;
+    transition: background-color 0.5s;
+    box-shadow: 0 0 20px cornflowerblue;
+}
+.CV-download:hover{
+    color: white;
+    background-color: cornflowerblue;
+}
+.CV-download:focus{
+    outline: none;
+    color: white;
+    background-color: cornflowerblue;
+}
+.CV-download:active{
+    text-decoration: underline;
+}
+.skills{
+    
+    list-style: none;
+    padding: 0;   
+}
+.Zainteresowania{
+    width: 20px;
+    height: 20px;
+    
+}
+    
+
