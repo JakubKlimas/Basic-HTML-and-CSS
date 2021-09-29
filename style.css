@@ -1,123 +1,115 @@
-body{
-    font-family: Arial;
-    background-color: rgb(171, 198, 247);
-    padding: 40px 0px
+body {
+  font-family: Arial;
+  background-color: rgb(171, 198, 247);
+  padding: 40px 0px;
 }
-h1{
-    color:black;
-    padding: 15px;
-    display: inline-block;
-    margin-bottom: 10px;
-    
+h1 {
+  color: black;
+  padding: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
 }
-h2{
-    color:rgb(57, 120, 236);
-    padding: 5px;
+h2 {
+  color: rgb(57, 120, 236);
+  padding: 5px;
 }
-h3{
-    color:cornflowerblue;
-    padding: 5px;
+h3 {
+  color: cornflowerblue;
+  padding: 5px;
 }
-span{   
-    display: inline-block;
-    padding: 1px 60px;
-    text-decoration: none;
-    color: black;   
+span {
+  display: inline-block;
+  padding: 1px 60px;
+  text-decoration: none;
+  color: black;
 }
 .address-icon {
-    width: 16px;
-    height: 16px;
-    border: none;
-    background-color: cornflowerblue;
-    margin-right: 15px;
-    padding: 8px;
-    vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: cornflowerblue;
+  margin-right: 15px;
+  padding: 8px;
+  vertical-align: middle;
 }
-.circle{
-    border-radius: 50%;
+.circle {
+  border-radius: 50%;
 }
-.container{
-    box-shadow: 0 0 20px grey;
-    width: 960px;
-    margin: 0 auto;
-    background-color: white;
+.container {
+  box-shadow: 0 0 20px grey;
+  width: 960px;
+  margin: 0 auto;
+  background-color: white;
 }
 header,
-section{
-    padding: 10px 60px 20px 60px;
+section {
+  padding: 10px 60px 20px 60px;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 60px;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
 }
-header ul{
-    list-style: none;
+header ul {
+  list-style: none;
 }
-header li{
-    margin-bottom: 15px;
+header li {
+  margin-bottom: 15px;
 }
-header img{
-    width: 150px;
-    height: 200px;
-    margin-right: auto;
-    border: 10px solid rgb(144, 177, 240);
-    
+header img {
+  width: 150px;
+  height: 200px;
+  margin-right: auto;
+  border: 10px solid rgb(144, 177, 240);
 }
-div{
-    margin: auto;
-    padding: 60px;
+div {
+  margin: auto;
+  padding: 60px;
 }
 
-.profile-picture{
-    width: 180px;
-    height: 200px;
-    border-radius: 50%;
+.profile-picture {
+  width: 150px;
+  height: 180px;
+  border-radius: 50%;
 }
-section img{
-    padding: 10px;
-    margin: auto;
-    vertical-align: middle;
-    
+section img {
+  padding: 10px;
+  margin: auto;
+  vertical-align: middle;
 }
-.hobbies{
-    display: flex;
-    list-style: none;
-    align-items:center;
-    justify-content: space-evenly;
-    
+.hobbies {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.CV-download{
-    border: 2px solid cornflowerblue;
-    color: black;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 45%;
-    transition: background-color 0.5s;
-    box-shadow: 0 0 20px cornflowerblue;
+.CV-download {
+  border: 2px solid cornflowerblue;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 45%;
+  transition: background-color 0.5s;
+  box-shadow: 0 0 20px cornflowerblue;
 }
-.CV-download:hover{
-    color: white;
-    background-color: cornflowerblue;
+.CV-download:hover {
+  color: white;
+  background-color: cornflowerblue;
 }
-.CV-download:focus{
-    outline: none;
-    color: white;
-    background-color: cornflowerblue;
+.CV-download:focus {
+  outline: none;
+  color: white;
+  background-color: cornflowerblue;
 }
-.CV-download:active{
-    text-decoration: underline;
+.CV-download:active {
+  text-decoration: underline;
 }
-.skills{
-    
-    list-style: none;
-    padding: 0;   
+.skills {
+  list-style: none;
+  padding: 0;
 }
-.Zainteresowania{
-    width: 20px;
-    height: 20px;
-    
+.Zainteresowania {
+  width: 20px;
+  height: 20px;
 }
-    
-
